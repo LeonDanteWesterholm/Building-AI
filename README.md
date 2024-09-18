@@ -24,7 +24,7 @@ This app would be most useful for:
 * People with specific dietary restrictions or health conditions (e.g., gluten-free, diabetic).
 * Anyone looking for convenient, healthy meal options based on what they have in their kitchen.
 
-![Food Image]([https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg](https://www.google.com/search?sca_esv=e9ea40622f6d2cac&sca_upv=1&rlz=1C5CHFA_enSE993SE993&sxsrf=ADLYWIII78U4FPKIsD8XomOh_UXS3bdwXg:1726654426982&q=food+image+copyright+free&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2joQcoZ-0Q2Udkt2zEybT7HdNV1kobqvEwEVRYBCltlBtQd5-pPeakpVgpgEn2RgmgzeZo15rltNMrDtoZe63sl46hHJXZmfPBeZdqdwrtlSxkvce3I&sa=X&ved=2ahUKEwixpJT-oMyIAxVnHRAIHURtD_EQtKgLegQIFBAB&biw=1440&bih=813&dpr=2#vhid=gAln8o5HC4JjPM&vssid=mosaic))  
+![Food Image](https://github.com/LeonDanteWesterholm/Building-AI/raw/main/aibild1.jpg)  
 *(Note: You can replace this image with a relevant one for your app!)*
 
 ## Data sources and AI methods
