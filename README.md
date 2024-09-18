@@ -4,7 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-The **Next Meal Recommender** app uses AI to provide personalized meal recommendations based on users’ dietary preferences, available ingredients, and nutritional needs. It helps users make healthier food choices with ease by automating the meal selection process.
+The **BiteBuddy** app uses AI to provide personalized meal recommendations based on users’ dietary preferences, available ingredients, and nutritional needs. It helps users make healthier food choices with ease by automating the meal selection process.
 
 ## Background
 
@@ -17,7 +17,7 @@ Key problems addressed:
 
 ## How is it used?
 
-The user inputs their dietary preferences (e.g., vegan, keto), fitness goals (e.g., muscle gain, weight loss), and available ingredients at home. The AI then generates a list of nutritious meals tailored to those preferences and ingredients. Users can also integrate fitness tracking, allowing the app to adjust meal recommendations based on their recent activity levels.
+The user inputs their dietary preferences (e.g., vegan, keto), fitness goals (e.g., muscle gain, weight loss, maintain), and available ingredients at home. The AI then generates a list of nutritious meals tailored to those preferences and ingredients. Users can also integrate fitness tracking, allowing the app to adjust meal recommendations based on their recent activity levels.
 
 This app would be most useful for:
 * Fitness enthusiasts who want meal recommendations aligned with their training.
@@ -62,3 +62,4 @@ To move forward, I’d need:
 * Inspiration from existing apps like **MyFitnessPal** and **Spoonacular** API.
 * Special thanks to open data initiatives that provide access to food and nutrition databases.
 * AI techniques adapted from open-source learning materials and communities like **Kaggle** and **Reaktor Innovations**.
+* The courses "AI Fundamentals" and "Building AI" at Linkoping University
