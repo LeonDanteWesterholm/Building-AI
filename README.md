@@ -1,79 +1,64 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Project Title
+# Next Meal Recommender
 
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+The **Next Meal Recommender** app uses AI to provide personalized meal recommendations based on users’ dietary preferences, available ingredients, and nutritional needs. It helps users make healthier food choices with ease by automating the meal selection process.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Many people struggle with meal planning, especially when trying to align their food choices with specific dietary goals or restrictions. This app solves the issue of decision fatigue around what to eat, making it easier for individuals to stay on track with their nutrition goals. As someone deeply invested in health and fitness, I know how difficult it can be to make the right food choices consistently, which is why I wanted to create an AI solution that simplifies this process. The ability to generate healthy, easy-to-cook recipes from ingredients users already have at home adds convenience, reducing food waste as well.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+Key problems addressed:
+* Difficulty in planning nutritious meals consistently.
+* Lack of time or knowledge to select meals based on dietary goals.
+* Reducing food waste by using available ingredients efficiently.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The user inputs their dietary preferences (e.g., vegan, keto), fitness goals (e.g., muscle gain, weight loss), and available ingredients at home. The AI then generates a list of nutritious meals tailored to those preferences and ingredients. Users can also integrate fitness tracking, allowing the app to adjust meal recommendations based on their recent activity levels.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+This app would be most useful for:
+* Fitness enthusiasts who want meal recommendations aligned with their training.
+* People with specific dietary restrictions or health conditions (e.g., gluten-free, diabetic).
+* Anyone looking for convenient, healthy meal options based on what they have in their kitchen.
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+![Food Image](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)  
+*(Note: You can replace this image with a relevant one for your app!)*
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The app would leverage existing public databases with nutritional information, such as the **USDA Food Composition Database**, as well as **recipe APIs** like **Spoonacular** or **Edamam** for recipe generation. User input data (preferences, fitness goals) would be stored in a secure database and used for personalization.
+
+AI methods:
+* **Natural Language Processing (NLP)** to process user inputs and ingredient lists.
+* **Collaborative filtering** to suggest meals based on user history and preferences.
+* **Reinforcement learning** to improve meal recommendations over time based on user feedback.
+
+[Example API: Spoonacular Recipe API](https://spoonacular.com/food-api)
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+The app may not be able to address:
+* The accuracy of recommendations if data input is incomplete or incorrect.
+* Cultural or personal preferences outside of dietary restrictions.
+* Ethical considerations around food allergies and ensuring complete accuracy in ingredient analysis.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+In the future, the app could:
+* Integrate with grocery delivery services to automatically create shopping lists based on missing ingredients.
+* Expand into a community platform where users can share meal plans, reviews, and tweaks to the recommended meals.
+* Add voice-activated features to help users cook hands-free.
 
+To move forward, I’d need:
+* Access to larger datasets and APIs for recipes and nutritional information.
+* Additional machine learning expertise to improve personalization algorithms.
+* Possibly partnership with grocery services for delivery integration.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* Inspiration from existing apps like **MyFitnessPal** and **Spoonacular** API.
+* Special thanks to open data initiatives that provide access to food and nutrition databases.
+* AI techniques adapted from open-source learning materials and communities like **Kaggle** and **Reaktor Innovations**.
